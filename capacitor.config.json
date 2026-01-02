@@ -1,0 +1,15 @@
+{
+    "appId": "com.tianji.bazi",
+    "appName": "天纪算命",
+    "webDir": "web_build",
+    "bundledWebRuntime": false,
+    "plugins": {
+        "SplashScreen": {
+            "launchShowDuration": 2000,
+            "backgroundColor": "#1a1a1a",
+            "showSpinner": true,
+            "androidSpinnerStyle": "small",
+            "spinnerColor": "#D4AF37"
+        }
+    }
+}

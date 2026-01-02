@@ -1,0 +1,25 @@
+{
+    "name": "tianji-bazi-app",
+    "version": "1.0.0",
+    "description": "天纪算命 - 八字精批应用",
+    "main": "app.py",
+    "scripts": {
+        "cap:init": "npx cap init",
+        "cap:add:android": "npx cap add android",
+        "cap:sync": "npx cap sync",
+        "cap:open:android": "npx cap open android",
+        "build": "npx cap sync && npx cap copy"
+    },
+    "keywords": [
+        "bazi",
+        "fortune",
+        "chinese-astrology"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "@capacitor/android": "^7.4.4",
+        "@capacitor/cli": "^7.4.4",
+        "@capacitor/core": "^7.4.4"
+    }
+}

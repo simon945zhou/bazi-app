@@ -1,0 +1,5 @@
+flask
+lunar-python
+pdfplumber
+python-docx
+jieba
